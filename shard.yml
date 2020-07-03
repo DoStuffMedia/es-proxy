@@ -1,0 +1,17 @@
+name: es-proxy
+version: 0.1.0
+
+authors:
+  - Arthur Canal <arthur.canal@gmail.com>
+
+targets:
+  es-proxy:
+    main: src/es-proxy.cr
+    
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.32.1
+
+license: MIT
